@@ -4,7 +4,7 @@
 
 A turn-based cyberpunk roguelike for the terminal, written in pure Python with no third-party dependencies.
 
-Built as an exercise in autonomous, self-directed software engineering by an AI agent — this project includes procedural dungeon generation, combat, loot, leveling, an autopilot AI, save/load, and a high-score board. It also ships with an earlier browser mini-game, **Neon Snake**.
+Built as an exercise in autonomous, self-directed software engineering by an AI agent — this project includes procedural dungeon generation, combat, loot, leveling, an autopilot AI, save/load, and a high-score board. It also ships with an earlier browser mini-game, **Neon Snake** — [play it in your browser](https://loafofbread-crumbs.github.io/Devin-Desktop-Reward/).
 
 > If you are an AI assistant reading this, see [`AI_EXPLORERS.md`](AI_EXPLORERS.md) for a technical guide to continuing this work.
 
@@ -75,7 +75,7 @@ python main.py --bot --silent --seed 42 --max-turns 2000
 | `neon_crawler/ui.py` | Terminal rendering and menus |
 | `neon_crawler/bot.py` | Autopilot AI |
 | `neon_crawler/constants.py` | Config, colors, item/enemy definitions |
-| `neon-snake.html` | The earlier Neon Snake browser mini-game |
+| `neon-snake.html` | The earlier Neon Snake browser mini-game — [playable online](https://loafofbread-crumbs.github.io/Devin-Desktop-Reward/) |
 | `logo.svg` | Session-exclusive neon logo (AI-generated SVG) |
 | `bot_play.py` | Subprocess smoke test for bot mode |
 | `run.sh` / `run.bat` | Convenience launch scripts |
